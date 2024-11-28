@@ -10,5 +10,3 @@ namespace Tyuiu.ZhanabaevTA.Sprint6.Task0.V10.Lib
         }
     }
 }
-
-
