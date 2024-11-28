@@ -40,5 +40,10 @@ namespace Tyuiu.ZhanabaevTA.Sprint6.Task0.V10
                 e.Handled = true;
             }
         }
+
+        private void textBoxVarX_∆“¿_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

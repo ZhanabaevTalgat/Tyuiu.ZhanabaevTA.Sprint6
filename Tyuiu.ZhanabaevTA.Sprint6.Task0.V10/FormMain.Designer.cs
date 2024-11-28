@@ -74,6 +74,7 @@
             textBoxVarX_ЖТА.Size = new Size(125, 27);
             textBoxVarX_ЖТА.TabIndex = 0;
             textBoxVarX_ЖТА.Text = "2";
+            textBoxVarX_ЖТА.TextChanged += textBoxVarX_ЖТА_TextChanged;
             textBoxVarX_ЖТА.KeyPress += textBoxVarA_ЖТА_KeyPress;
             // 
             // groupBoxOutput_ЖТА
