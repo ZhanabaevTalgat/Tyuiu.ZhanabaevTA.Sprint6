@@ -1,6 +1,6 @@
 ﻿namespace Tyuiu.ZhanabaevTA.Sprint6.Task1.V1
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             groupBoxTask_ЖТА = new GroupBox();
             pictureBoxTask_ЖТА = new PictureBox();
             groupBoxOutput_ЖТА = new GroupBox();
@@ -119,6 +119,7 @@
             textBoxStop_ЖТА.Name = "textBoxStop_ЖТА";
             textBoxStop_ЖТА.Size = new Size(125, 27);
             textBoxStop_ЖТА.TabIndex = 1;
+            textBoxStop_ЖТА.Text = "5";
             textBoxStop_ЖТА.TextChanged += textBoxStop_ЖТА_TextChanged;
             textBoxStop_ЖТА.KeyPress += textBoxStart_ЖТА_TextChanged;
             // 
@@ -128,6 +129,7 @@
             textBoxStart_ЖТА.Name = "textBoxStart_ЖТА";
             textBoxStart_ЖТА.Size = new Size(125, 27);
             textBoxStart_ЖТА.TabIndex = 1;
+            textBoxStart_ЖТА.Text = "-5";
             textBoxStart_ЖТА.TextChanged += textBoxStart_ЖТА_TextChanged;
             textBoxStart_ЖТА.KeyPress += textBoxStart_ЖТА_TextChanged;
             // 
@@ -171,7 +173,7 @@
             buttonRun_ЖТА.UseVisualStyleBackColor = false;
             buttonRun_ЖТА.Click += buttonRun_ЖТА_Click;
             // 
-            // Form1
+            // FormMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -181,7 +183,7 @@
             Controls.Add(groupBoxInput_ЖТА);
             Controls.Add(groupBoxOutput_ЖТА);
             Controls.Add(groupBoxTask_ЖТА);
-            Name = "Form1";
+            Name = "FormMain";
             Text = "Спринт 6 | Таск 1 | Вариант 1 | Жанабаев Т.А";
             groupBoxTask_ЖТА.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBoxTask_ЖТА).EndInit();
