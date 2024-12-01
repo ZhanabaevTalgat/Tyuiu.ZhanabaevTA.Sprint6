@@ -4,6 +4,8 @@ namespace Tyuiu.ZhanabaevTA.Sprint6.Task2.V18.Lib
 {
     public class DataService : ISprint6Task2V18
     {
+        public object Console { get; set; }
+
         public double[] GetMassFunction(int startValue, int stopValue)
         {
             int len = stopValue - startValue + 1;
