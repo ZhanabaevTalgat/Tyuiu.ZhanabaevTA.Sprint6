@@ -15,18 +15,18 @@ namespace Tyuiu.ZhanabaevTA.Sprint6.Task3.V17.Lib
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    if (i == 3)
+                    if (j == 3)
                     {
-                        sort[j] = matrix[i, j];
+                        sort[i] = matrix[i, j];
                     }
                 }
             }
 
             Array.Sort(sort);
 
-            for (int j = 0; j < columns; j++)
+            for (int i = 0; i < rows; i++)
             {
-                matrix[3, j] = sort[j];
+                matrix[i, 3] = sort[i];
             }
 
             return matrix;
