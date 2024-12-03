@@ -60,6 +60,8 @@
             ClientSize = new Size(480, 231);
             Controls.Add(buttonOk_ЖТА);
             Controls.Add(labelInfo_ЖТА);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
             Name = "FormAbout";
             Text = "О программе";
             ResumeLayout(false);
