@@ -1,6 +1,6 @@
 ﻿namespace Tyuiu.ZhanabaevTA.Sprint6.Task2.V18
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             groupBoxTask_ЖТА = new GroupBox();
             pictureBoxTask_ЖТА = new PictureBox();
             groupBoxOutput_ЖТА = new GroupBox();
@@ -91,18 +91,18 @@
             // 
             // chartFunction_ЖТА
             // 
-            chartArea1.Name = "ChartArea1";
-            chartFunction_ЖТА.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            chartFunction_ЖТА.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            chartFunction_ЖТА.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            chartFunction_ЖТА.Legends.Add(legend2);
             chartFunction_ЖТА.Location = new Point(218, 60);
             chartFunction_ЖТА.Name = "chartFunction_ЖТА";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsVisibleInLegend = false;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            chartFunction_ЖТА.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsVisibleInLegend = false;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            chartFunction_ЖТА.Series.Add(series2);
             chartFunction_ЖТА.Size = new Size(470, 412);
             chartFunction_ЖТА.TabIndex = 2;
             chartFunction_ЖТА.Text = "chart1";
@@ -217,7 +217,7 @@
             buttonInfo_ЖТА.UseVisualStyleBackColor = false;
             buttonInfo_ЖТА.Click += buttonInfo_ЖТА_Click;
             // 
-            // Form1
+            // FormMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -227,7 +227,7 @@
             Controls.Add(groupBoxInput_ЖТА);
             Controls.Add(groupBoxOutput_ЖТА);
             Controls.Add(groupBoxTask_ЖТА);
-            Name = "Form1";
+            Name = "FormMain";
             Text = "Спринт 6 | Таск 2 | Вариант 18 | Жанабаев Т.А";
             groupBoxTask_ЖТА.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBoxTask_ЖТА).EndInit();
