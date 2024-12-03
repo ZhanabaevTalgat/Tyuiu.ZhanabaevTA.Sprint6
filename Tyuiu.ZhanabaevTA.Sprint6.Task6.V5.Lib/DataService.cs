@@ -27,5 +27,10 @@ namespace Tyuiu.ZhanabaevTA.Sprint6.Task6.V5.Lib
 
             return resStr;
         }
+
+        public string CollectTextFromFile(string str, string path)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
