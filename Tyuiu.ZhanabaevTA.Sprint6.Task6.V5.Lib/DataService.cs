@@ -23,7 +23,10 @@ namespace Tyuiu.ZhanabaevTA.Sprint6.Task6.V5.Lib
                             {
                                 resStr = s[i];
                             }
-                            resStr = resStr + " " + s[i];
+                            else
+                            {
+                                resStr = resStr + " " + s[i];
+                            }
                         }
                     }
                 }
