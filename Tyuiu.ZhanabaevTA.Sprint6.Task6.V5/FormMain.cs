@@ -24,7 +24,7 @@ public partial class FormMain : Form
     private void buttonDone_∆“¿_Click(object sender, EventArgs e)
     {
         string str = "l";
-        textBoxOutput_∆“¿.Text = ds.CollectTextFromFile(str, openFilePath);
+        textBoxOutput_∆“¿.Text = ds.CollectTextFromFile(openFilePath);
     }
 
     private void buttonHelp_∆“¿_Click(object sender, EventArgs e)

@@ -4,8 +4,9 @@ namespace Tyuiu.ZhanabaevTA.Sprint6.Task6.V5.Lib
 {
     public class DataService : ISprint6Task6V5
     {
-        public string CollectTextFromFile(string str, string path)
+        public string CollectTextFromFile(string path)
         {
+            string str = "l";
             string resStr = "";
 
             using (StreamReader streamReader = new StreamReader(path))
