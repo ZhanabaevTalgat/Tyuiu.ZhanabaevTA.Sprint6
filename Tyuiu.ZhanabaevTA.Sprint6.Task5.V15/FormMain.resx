@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBoxTask_ЖТА.Text" xml:space="preserve">
+    <value>Прочитать данные из файла InPutFileTask5V15.txt. Вывести в dataGridView. Вывести все числа от 2 до 7. Построить диаграмму по этим значениям. У вещественных значений округлить до трёх знаков после запятой.</value>
+  </data>
 </root>

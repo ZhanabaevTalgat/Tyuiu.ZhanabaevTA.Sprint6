@@ -8,4 +8,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="winforms.datavisualization" Version="1.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.ZhanabaevTA.Sprint6.Task5.V15.Lib\Tyuiu.ZhanabaevTA.Sprint6.Task5.V15.Lib.csproj" />
+  </ItemGroup>
+
 </Project>
