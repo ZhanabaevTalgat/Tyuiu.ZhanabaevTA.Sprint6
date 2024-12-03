@@ -19,6 +19,10 @@ namespace Tyuiu.ZhanabaevTA.Sprint6.Task6.V5.Lib
                     {
                         if (s[i].Contains(str))
                         {
+                            if (resStr == "")
+                            {
+                                resStr = s[i];
+                            }
                             resStr = resStr + " " + s[i];
                         }
                     }
